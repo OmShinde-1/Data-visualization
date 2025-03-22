@@ -1,0 +1,27 @@
+{
+  "visualization": {
+    "id": "custom_word_cloud",
+    "label": "Custom Word Cloud",
+    "config": {
+      "dimensions": [
+        {
+          "id": "word",
+          "label": "Word",
+          "description": "The word that appears in the word cloud"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "frequency",
+          "label": "Frequency",
+          "aggregation": "SUM",
+          "description": "The frequency of each word"
+        }
+      ]
+    }
+  },
+  "resources": {
+    "js": ["wordcloud.js"],
+    "css": []
+  }
+}
