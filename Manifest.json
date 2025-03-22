@@ -6,22 +6,19 @@
       "dimensions": [
         {
           "id": "word",
-          "label": "Word",
-          "description": "The word that appears in the word cloud"
+          "label": "Word"
         }
       ],
       "metrics": [
         {
           "id": "frequency",
           "label": "Frequency",
-          "aggregation": "SUM",
-          "description": "The frequency of each word"
+          "aggregation": "SUM"
         }
       ]
     }
   },
   "resources": {
-    "js": ["wordcloud.js"],
-    "css": []
+    "js": ["wordcloud.js"]
   }
 }
